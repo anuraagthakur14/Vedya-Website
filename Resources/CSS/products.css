@@ -1,0 +1,118 @@
+/* .websphere{
+    display: grid;
+    place-items: center;
+} */
+
+.box{
+    text-align: justify;
+    line-height: 23px;
+    letter-spacing: 1px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.fadeleft{
+    animation-name: fadel;
+    animation-duration: 2s;
+}
+
+@keyframes fadel{
+    0%{
+        opacity: 0;
+        transform: translate(-100px,0);
+        /* margin-left: -100px; */
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0,0);
+        /* margin-left: 0; */
+    }
+}
+
+.faderight{
+    animation-name: fader;
+    animation-duration: 2s;
+}
+
+@keyframes fader{
+    0%{
+        opacity: 0;
+        transform: translate(100px,0);
+        /* margin-left: -100px; */
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0,0);
+        /* margin-left: 0; */
+    }
+}
+
+
+h1::after{
+    display: block;
+    height: 2px;
+    width: 100px;
+    background-color: #359b8a;
+    content: " ";
+    margin: 20px auto;
+}
+.websphere h2{
+    margin-top:50%;
+    color: #359b8a;
+    font-size: 350%;
+    font-weight: 300;
+    /* vertical-align: middle; */
+}
+
+.websphere h3{
+    font-weight: 500;
+    font-size: 130%;
+    /* text-align: justify; */
+    /* text-justify: inter-word; */
+}
+
+
+/* STERLING ORDER MGM */
+
+.sterling-order-management{
+    background-color: rgb(239, 239, 239);
+}
+
+.sterling-order-management h2{
+    margin-top: 8%;
+    color: #359b8a;
+    font-size: 350%;
+    font-weight: 300;
+    margin-left: 30px;
+    position: absolute;
+}
+
+/* SPA HYBRIS */
+
+.SAP h2{
+    margin-top: 21%;
+    color: #359b8a;
+    font-size: 400%;
+    font-weight: 300;
+    margin-left: 10%;
+    position: absolute;
+}
+
+/* MAGNETO */
+
+.mag{
+    background-color: rgba(239, 239, 239);
+}
+
+.mag h2{
+    margin-top: 8%;
+    color: #359b8a;
+    font-size: 350%;
+    font-weight: 300;
+    margin-left: 15%;
+    margin-top: 20%;
+    position: absolute;
+}
